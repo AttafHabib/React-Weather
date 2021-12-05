@@ -1,0 +1,15 @@
+.logo-small{
+    display: block;
+}
+.logo-large{
+    display: none;
+}
+
+@media (min-width: 620px){
+    .logo-small{
+        display: none;
+    }
+    .logo-large{
+        display: block;
+    }
+}

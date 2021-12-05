@@ -1,0 +1,44 @@
+.app{
+    width: 100%;
+}
+main{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.warm{
+    background-image: url("./assets/warm.jpg");
+    background-size: cover;
+    background-position: bottom;
+}
+.cold{
+        background-image: url("./assets/cold.jpg");
+}
+.card{
+    margin-top: 40px;
+    font-size: 20px;
+    width: 150px;
+    height: 300px;
+}
+.change_container{
+    display: flex;
+    justify-content: space-around;
+}
+.change_container > button{
+    font-size: 30px;
+    border-radius: 5px;
+}
+.center{
+    justify-content: center;
+}
+.temp{
+    font-size: 25px;
+}
+.center_text{
+    text-align: center;
+}
+.weather_icon{
+    margin: 10px 10px;
+    font-size: 50px;
+}
